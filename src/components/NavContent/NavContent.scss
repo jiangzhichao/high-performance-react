@@ -1,0 +1,38 @@
+.nac-c {
+  padding: 8px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.nav-c-m .am-modal-content {
+  background: none;
+}
+
+.nac-l {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 4px;
+  text-align: center;
+  & > span {
+    display: block;
+    line-height: 0px;
+    padding: 25px 0px;
+    border-bottom: 1px solid #ddd;
+  }
+  & > span:last-child {
+    border: none;
+  }
+}
+
+.nac-custom {
+  display: block;
+  line-height: 0px;
+  padding: 25px 0px;
+  text-align: center;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #108ee9;
+}

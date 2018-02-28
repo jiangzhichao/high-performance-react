@@ -1,0 +1,28 @@
+.back-top {
+  background-color: #D62F10;
+  padding: 8px;
+  position: fixed;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 998;
+  & > div:nth-child(1) {
+    position: absolute;
+    width: 31px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & > img {
+      width: 12px;
+    }
+  }
+  & > span {
+    position: absolute;
+    right: 13px;
+  }
+}
