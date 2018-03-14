@@ -21,7 +21,6 @@ export default class Home extends Component {
     }
 
     render() {
-        console.log('render home');
         return (
             <div
                 style={{ width: '100%', background: '#5884ff' }}
