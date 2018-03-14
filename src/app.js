@@ -21,9 +21,7 @@ if (__DEVELOPMENT__ && !window.devToolsExtension) {
             </div>
         </Provider>, root
     );
-}
-
-if (!__DEVELOPMENT__) {
+} else {
     render(
         <Provider store={store} key="provider">
             <Routes />
