@@ -1,7 +1,7 @@
 {
-    "name": "do",
+    "name": "high-performance-react",
     "version": "1.0.0",
-    "description": "no",
+    "description": "high-performance-react",
     "main": "index.js",
     "scripts": {
         "dev": "concurrently --kill-others \"npm run start-dev\"",
@@ -27,7 +27,7 @@
         }
     },
     "keywords": [
-        "do"
+        "react redux"
     ],
     "author": "jzc",
     "license": "ISC",
