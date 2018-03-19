@@ -26,8 +26,6 @@ export default class App extends Component {
             left: '0'
         };
 
-        console.log('render app');
-
         return (
             <div>
                 <LoadingBar style={loadingBarStyle} />
