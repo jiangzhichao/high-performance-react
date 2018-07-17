@@ -1,0 +1,40 @@
+.heart-box {
+  width: 200px;
+  height: 200px;
+  //animation: size 1s infinite;
+  //animation-direction: alternate;
+  //transition: 1s all;
+  transform: scale(0.4);
+  transform-origin: 0 0 0;
+  z-index: 10;
+}
+
+.heart-round1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ff7978;
+  float: left;
+  position: absolute;
+}
+
+.heart-round2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #FF7978;
+  float: left;
+  position: absolute;
+  margin-left: 80px;
+}
+
+.heart-rec {
+  width: 100px;
+  height: 100px;
+  background-color: #FF7978;
+  float: left;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  transform: rotateZ(45deg);
+}

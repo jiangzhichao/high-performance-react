@@ -4,6 +4,7 @@ import {
     App,
     About,
     Home,
+    RealLove
 } from 'containers';
 
 export default () => (
@@ -11,7 +12,8 @@ export default () => (
         <Route render={props => (
             <App {...props}>
                 <Switch>
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/" component={RealLove} />
+                    <Route path="/home" component={Home} />
                     <Route path="/about" component={About} />
                     <Redirect to="/" />
                 </Switch>

@@ -34,7 +34,7 @@ export default class App extends Component {
                     timeout={200}
                     classNames="router"
                 >
-                    <div>{this.props.children}</div>
+                    <div style={{ height: '100%' }}>{this.props.children}</div>
                 </CSSTransition>
             </div>
         );
